@@ -13,7 +13,7 @@ Weather prediction is a complex challenge due to the non-linear interactions bet
 
 To address this problem, we propose building and evaluating various classification models, including Logistic Regression, Decision Trees, and ensemble methods like Random Forests and Gradient Boosting. These approaches are well-suited to handling the multi-dimensional and non-linear nature of weather data, with ensemble methods particularly adept at improving prediction accuracy.
 
-## Setup: 
+# Data Exploration
 
 ### Features Overview
 
@@ -32,20 +32,20 @@ To address this problem, we propose building and evaluating various classificati
 | `RainToday_Yes`        | Indicator if it rained today (1 = Yes, 0 = No)       | Binary      |
 | `RainTomorrow_Yes`     | Target variable: Will it rain tomorrow? (1 = Yes, 0 = No) | Binary      |
 
-### Experimental Setup
+# Experimental Setup
 
-#### Computing Environment:
+### Computing Environment:
 - **Programming Language:** Python 3.8+
 - **Platform:** Jupyter Notebook
 - **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
 
-#### Problem Setup:
+### Problem Setup:
 - **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
 - **Evaluation Metric:** Classification Error Rate.
 
 
-#### Models to be Used:
-##### 1. **Parametric Models:**
+#Models Implemented:
+### 1. **Parametric Models:**
 Parametric models rely on assumptions about the data distribution and aim to estimate parameters that best explain the relationship between predictors and the target variable. For our rain prediction project, we implemented logistic regression as the primary parametric method. Additionally, we used forward selection and regularization techniques to improve model performance and interpretability.
 
 <details>
@@ -105,7 +105,7 @@ Comment:
 
 </details>
 
-##### 2.  **Non-parametric Models:**
+### 2.  **Non-parametric Models:**
 
 <details>
   <summary>Click to expand</summary>
@@ -124,13 +124,13 @@ a powerful ensemble method that builds trees sequentially, optimizing for errors
 
 </details>
 
-## Results: Describe the results from your experiments.
+# Results: Describe the results from your experiments.
 
 Main results: Describe the main experimental results you have; this is where you highlight the most interesting findings.
 
 Supplementary results: Describe the parameter choices you have made while running the experiments. This part goes into justifying those choices.
 
-## Discussion: 
+# Discussion: 
 Discuss the results obtained above. If your results are very good, see if you could compare them with some existing approaches that you could find online. If your results are not as good as you had hoped for, make a good-faith diagnosis about what the problem is.
 
 ## Conclusion: In several sentences, summarize what you have done in this project.
