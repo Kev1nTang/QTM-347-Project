@@ -29,6 +29,41 @@ To address this problem, we propose building and evaluating various classificati
 | `RainToday_Yes`        | Indicator if it rained today (1 = Yes, 0 = No)       | Binary      |
 | `RainTomorrow_Yes`     | Target variable: Will it rain tomorrow? (1 = Yes, 0 = No) | Binary      |
 
+### Visualizations
+To start with, we explored our data with several visualizations:
+
+<details>
+  <summary>Click to expand</summary>
+
+#### Correlation Heatmap of the Variables.
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%204.png" style="width: 100%; height: auto;">
+
+From the map, we can observe that:
+Here are three observations based on the provided correlation heatmap:
+
+1. There is a strong positive correlation between **Evaporation** and **MaxTemp** (0.80). This suggests that higher maximum temperatures may lead to increased evaporation.
+2. **RainToday_Yes** is positively correlated with **Rainfall** (0.64) and **Humidity** (0.49), which are strong indicators of the likelihood of rain on the same day or the next day.
+3. **Pressure** shows a negative correlation with **Cloud** (-0.49) and **Humidity** (-0.66). This indicates that lower atmospheric pressure is associated with increased cloudiness and humidity, likely contributing to precipitation events.
+
+However, these correlations are not protected from multicollinearity that exists in these weather data.
+
+#### Boxplots on features vs. target variable
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%205.png" style="width: 100%; height: auto;">
+
+#### Piecharts on distribution of categorical features
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
+
+#### Bargraphs on distribution of continuous features
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
+
+
+</details>
+
+
 ## Experimental Setup
 
 ### Computing Environment:
