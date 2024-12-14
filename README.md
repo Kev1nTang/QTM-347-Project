@@ -159,4 +159,7 @@ Discuss the results obtained above. If your results are very good, see if you co
 
 ## Conclusion: In several sentences, summarize what you have done in this project.
 
-## References: Put any links, papers, blog posts, or GitHub repositories that you have borrowed from/found useful here.
+## References: 
+
+1. A. Natekin and A. Knoll. (2013). *Gradient boosting machines, a tutorial*. *Frontiers in Neurorobotics*, 7:21.  
+2. Young, J. (2020, December 11). *Rain in Australia*. Kaggle. [Link to dataset](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package).
