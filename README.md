@@ -148,7 +148,7 @@ From the figure above, forward selection yields the best outcome among the param
 </details>
 
 ### 2.  **Non-parametric Models:**
-Non-parametric models do not assume a specific data distribution and instead rely on the data itself to reveal patterns and relationships. By not making strong assumptions about the data, non-parametric models can capture intricate patterns that parametric models might miss. For our rain prediction project, we implemented models including K-Nearest Neighbors (KNN), Decision Trees, Random Forests, and Gradient Boosting.
+Non-parametric models do not assume a specific data distribution and instead rely on the data itself to reveal patterns and relationships. By not making strong assumptions about the data, non-parametric models can capture intricate patterns that parametric models might miss. For our rain prediction project, we implemented models including K-Nearest Neighbors (KNN), Classification Trees, Random Forests, and Gradient Boosting.
 
 <details>
   <summary>Click to expand</summary>
@@ -161,7 +161,7 @@ An instance-based learning algorithm that classifies a data point based on the m
 The optimal value for k was determined to be 15, which balances bias and variance to achieve the best model performance. At this optimal value, the misclassification error rate is 11.64%, indicating the proportion of incorrectly classified data points.
 
 
-#### 2.2 **Classification Trees:**  
+#### 2.2 **Classification Tree:**  
 Partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2017.png" style="width: 100%; height: auto;">
