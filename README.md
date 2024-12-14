@@ -186,7 +186,7 @@ The following figure demonstrates a summary of the misclassification errors deri
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2021.png" style="width: 100%; height: auto;">
 
-From the figure above, gradient boosting yields the best outcome among the non-parametric models, this is due to its ability to sequentially build decision trees that correct the errors made by previous trees, allowing it to capture complex, non-linear relationships in the data. 
+From the figure above, Gradient Boosting yields the best outcome among the non-parametric models, this is due to its ability to sequentially build decision trees that correct the errors made by previous trees, allowing it to capture complex, non-linear relationships in the data. Note that the misclassification error rate of Gradient Boosting is smaller than that of all the parametric models, highlighting its superior performance in this task. 
 
 </details>
 
