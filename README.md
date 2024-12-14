@@ -129,13 +129,13 @@ PLS selected 2 components by maximizing the covariance between predictors and th
 #### 1.4 **Ridge and Lasso Regression:** 
 Ridge and Lasso are regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
 
-**Ridge:**
+**Ridge Regression:**
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2012.png" style="width: 100%; height: auto;">
 
 The misclassification error rate of 11.95% indicates that this approach effectively stabilized the model but did not outperform forward selection. Ridge regression provides better generalization by shrinking large coefficients and retaining all predictors. While it controls overfitting, the inclusion of less relevant predictors can dilute the model’s predictive power.
 
-**Lasso:**
+**Lasso Regression:**
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2013.png" style="width: 100%; height: auto;">
 
@@ -183,6 +183,12 @@ A powerful ensemble method that builds trees sequentially, optimizing for errors
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2020.png" style="width: 100%; height: auto;">
 
 The model achieves a misclassification error rate of 10.85%, making it one of the best-performing non-parametric models. The visualization highlights how decision trees are split based on various features, such as wind gust speed, sunshine, and humidity, to refine predictions and reduce overall error.
+
+The following figure demonstrates a summary of the misclassification errors derived using different parametric models.
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2021.png" style="width: 100%; height: auto;">
+
+Comment:
 
 </details>
 
