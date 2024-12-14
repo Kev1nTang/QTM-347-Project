@@ -11,7 +11,7 @@ Weather prediction is a complex challenge due to the non-linear interactions bet
 
 To address this problem, we propose building and evaluating various classification models, including Logistic Regression, Decision Trees, and ensemble methods like Random Forests and Gradient Boosting. These approaches are well-suited to handling the multi-dimensional and non-linear nature of weather data, with ensemble methods particularly adept at improving prediction accuracy.
 
-# Data Exploration
+## Data Exploration
 
 ### Features Overview
 
@@ -30,7 +30,7 @@ To address this problem, we propose building and evaluating various classificati
 | `RainToday_Yes`        | Indicator if it rained today (1 = Yes, 0 = No)       | Binary      |
 | `RainTomorrow_Yes`     | Target variable: Will it rain tomorrow? (1 = Yes, 0 = No) | Binary      |
 
-# Experimental Setup
+## Experimental Setup
 
 ### Computing Environment:
 - **Programming Language:** Python 3.8+
@@ -42,21 +42,21 @@ To address this problem, we propose building and evaluating various classificati
 - **Evaluation Metric:** Classification Error Rate.
 
 
-#Models Implemented:
+## Models Implemented:
 ### 1. **Parametric Models:**
 Parametric models rely on assumptions about the data distribution and aim to estimate parameters that best explain the relationship between predictors and the target variable. For our rain prediction project, we implemented logistic regression as the primary parametric method. Additionally, we used forward selection and regularization techniques to improve model performance and interpretability.
 
 <details>
   <summary>Click to expand</summary>
 
-##### 1.1 **Logistic Regression:** 
+#### 1.1 **Logistic Regression:** 
 Logistic regression is a statistical model used for binary classification problems. It estimates the probability of a binary outcome using a logistic function, making it ideal for predicting categorical variables like "rain" or "no rain."
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%207.png" style="width: 100%; height: auto;">
 
 The misclassification error rate of 12.26% indicates that approximately 12 out of 100 predictions were incorrect. This is a good starting point, showing that the weather variables used are informative but could benefit from refinement.
 
-##### 1.2 **Forward Selection:** 
+#### 1.2 **Forward Selection:** 
 Forward selection is a stepwise feature selection method that iteratively adds the most significant predictors to the model. It helps identify the best subset of features that contribute most to predicting the target variable.
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%208.png" style="width: 100%; height: auto;">
@@ -65,7 +65,7 @@ Forward selection selects the 7 most influential predictors based on their contr
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%209.png" style="width: 100%; height: auto;">
 
-##### 1.3 **Principal Component Analysis (PCA) / Partial Least Squares (PLS):** 
+#### 1.3 **Principal Component Analysis (PCA) / Partial Least Squares (PLS):** 
 PCA is a dimensionality reduction technique that transforms the data into principal components, capturing the most variance in fewer dimensions. PLS, on the other hand, maximizes the covariance between predictors and the target variable, making it suitable for highly correlated features.
 
 **PCA:**
@@ -80,7 +80,7 @@ PCA transformed the predictors into 6 uncorrelated components while retaining as
 
 PLS selected 2 components by maximizing the covariance between predictors and the target variable. However, the misclassification error rate of 12.26% was identical to the full logistic regression model. Like PCA, PLS is more suitable for datasets with a higher number of predictors.
 
-##### 1.4 **Ridge and Lasso Regression:** 
+#### 1.4 **Ridge and Lasso Regression:** 
 Ridge and Lasso are regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
 
 **Ridge:**
@@ -108,27 +108,27 @@ Comment:
 <details>
   <summary>Click to expand</summary>
 
-##### 2.1 **K-Nearest Neighbors (KNN):**  
+#### 2.1 **K-Nearest Neighbors (KNN):**  
 an instance-based learning algorithm that classifies a data point based on the majority class of its k-nearest neighbors. It is simple and effective for datasets with distinct clusters but may struggle with high-dimensional data.
 
-##### 2.2 **Classification Trees:**  
+#### 2.2 **Classification Trees:**  
 partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
 
-##### 2.3 **Random Forest:**  
+#### 2.3 **Random Forest:**  
 an ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
 
-##### 2.4 **Gradient Boosting:**  
+#### 2.4 **Gradient Boosting:**  
 a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
 
 </details>
 
-# Results: Describe the results from your experiments.
+## Results: Describe the results from your experiments.
 
 Main results: Describe the main experimental results you have; this is where you highlight the most interesting findings.
 
 Supplementary results: Describe the parameter choices you have made while running the experiments. This part goes into justifying those choices.
 
-# Discussion: 
+## Discussion: 
 Discuss the results obtained above. If your results are very good, see if you could compare them with some existing approaches that you could find online. If your results are not as good as you had hoped for, make a good-faith diagnosis about what the problem is.
 
 ## Conclusion: In several sentences, summarize what you have done in this project.
