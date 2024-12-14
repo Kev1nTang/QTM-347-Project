@@ -34,8 +34,6 @@ To address this problem, we propose building and evaluating various classificati
 
 ### Experimental Setup
 
-</details>
-
 #### Computing Environment:
 - **Programming Language:** Python 3.8+
 - **Platform:** Jupyter Notebook
@@ -124,6 +122,7 @@ an ensemble learning method that builds multiple decision trees and combines the
 ##### 2.4 **Gradient Boosting:**  
 a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
 
+</details>
 
 ## Results: Describe the results from your experiments.
 
