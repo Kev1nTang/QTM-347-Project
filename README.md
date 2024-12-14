@@ -34,6 +34,18 @@ To address this problem, we propose building and evaluating various classificati
 
 ### Experimental Setup
 
+</details>
+
+#### Computing Environment:
+- **Programming Language:** Python 3.8+
+- **Platform:** Jupyter Notebook
+- **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
+
+#### Problem Setup:
+- **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
+- **Evaluation Metric:** Classification Error Rate.
+
+
 #### Models to be Used:
 ##### 1. **Parametric Models:**
 Parametric models rely on assumptions about the data distribution and aim to estimate parameters that best explain the relationship between predictors and the target variable. For our rain prediction project, we implemented logistic regression as the primary parametric method. Additionally, we used forward selection and regularization techniques to improve model performance and interpretability.
@@ -112,16 +124,6 @@ an ensemble learning method that builds multiple decision trees and combines the
 ##### 2.4 **Gradient Boosting:**  
 a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
 
-</details>
-
-#### Computing Environment:
-- **Programming Language:** Python 3.8+
-- **Platform:** Jupyter Notebook
-- **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
-
-#### Problem Setup:
-- **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
-- **Evaluation Metric:** Classification Error Rate.
 
 ## Results: Describe the results from your experiments.
 
