@@ -1,23 +1,43 @@
 # QTM-347-Project
-# Title: (e.g., Learning from medical images using neural networks).
+# Rain Prediction in Perth
 
-## Abstract: In several sentences, summarize your project (e.g., think of a Tweet).
+## Abstract: This project aims to develop a model to predict whether it will rain in Perth Australia tomorrow based on today’s weather data. We tested for both parametric and non-parametric models, including logistics regression, KNN, random forest, gradient boosting, etc. Predictors in these models include temperature, sunshine, and humidity, etc.
 
-# Documentation:
+# Documentation
 
-## Introduction: Summarize your project report in several paragraphs.
+## Introduction
 
-What is the problem? For example, what are you trying to solve? Describe the motivation.
+Weather prediction is a complex challenge due to the non-linear interactions between atmospheric conditions. This project focuses on developing a classification model to predict whether it will rain in Perth, Australia, tomorrow using today’s weather data. Accurate rainfall predictions have significant implications in agriculture, transportation, and emergency preparedness, making this problem both practical and meaningful. Beyond immediate applications, rainfall prediction provides insights into seasonal trends and supports the understanding of climate change.
 
-Why is this problem interesting? Is this problem helping us solve a bigger task in some way? Where would we find use cases for this problem?
+To address this problem, we propose building and evaluating various classification models, including Logistic Regression, Decision Trees, and ensemble methods like Random Forests and Gradient Boosting. These approaches are well-suited to handling the multi-dimensional and non-linear nature of weather data, with ensemble methods particularly adept at improving prediction accuracy.
 
-What is the approach you propose to tackle the problem? What approaches make sense for this problem? Would they work well or not? Feel free to speculate here based on what we taught in class.
+Previous studies have shown that statistical models often lack the flexibility to capture complex interactions, while advanced machine learning techniques excel in these scenarios. Our approach emphasizes robust feature engineering, model optimization, and thorough evaluation using metrics such as precision, recall, and F1 score.
 
-Why is the approach a good approach compared with other competing methods? For example, did you find any reference for solving this problem previously? If there are, how does your approach differ from theirs?
+While our solution has limitations, such as dependency on data quality and inherent weather variability, it offers a systematic method to improve rainfall prediction accuracy and contribute to practical and research advancements in weather forecasting.
 
-What are the key components of my approach and results? Also, include any specific limitations.
+## Setup: 
 
-## Setup: Set up the stage for your experimental results.
+Dataset used
+
+| **Variable Name**         | **Description**                                                                 | **Data Type** |
+|----------------------------|---------------------------------------------------------------------------------|---------------|
+| `loan_amnt`               | The total amount of the loan                                                    | Numeric       |
+| `loan_term`               | The term of the loan (in months)                                                | Numeric       |
+| `emp_length`              | Employment length (in years)                                                    | Categorical   |
+| `home_ownership`          | The home ownership status                                                       | Categorical   |
+| `income_source_verified`  | Indicator if the income source was verified                                     | Binary        |
+| `income_verified`         | Indicator if the income was verified                                            | Binary        |
+| `income_thou`             | Income in thousands                                                             | Numeric       |
+| `debt_income`             | Debt-to-income ratio                                                            | Numeric       |
+| `delinq_2yrs`             | The number of 30+ days past-due incidences of delinquency in the past 2 years    | Numeric       |
+| `credit_history_length`   | Length of the borrower's credit history                                         | Numeric       |
+| `FICO`                    | FICO credit score                                                              | Numeric       |
+| `open_acc`                | Number of open credit lines                                                     | Numeric       |
+| `derogatory_recs`         | Number of derogatory records                                                    | Numeric       |
+| `revol_balance`           | Total credit revolving balance                                                  | Numeric       |
+| `revol_util`              | The amount of credit the borrower is using relative to all available revolving credit | Numeric |
+| `loan_rate`               | Interest rate of the loan (Our research target)                                 | Numeric       |
+
 
 Describe the dataset, including its basic statistics.
 
