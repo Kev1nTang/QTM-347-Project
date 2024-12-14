@@ -211,11 +211,6 @@ One key advantage of early stopping is its ability to dynamically adjust the num
 
 
 
-
-
-
-
-
 ## Results: Describe the results from your experiments.
 
 Main results: Describe the main experimental results you have; this is where you highlight the most interesting findings.
@@ -223,7 +218,8 @@ Main results: Describe the main experimental results you have; this is where you
 Supplementary results: Describe the parameter choices you have made while running the experiments. This part goes into justifying those choices.
 
 ## Discussion: 
-Discuss the results obtained above. If your results are very good, see if you could compare them with some existing approaches that you could find online. If your results are not as good as you had hoped for, make a good-faith diagnosis about what the problem is.
+
+The comparison between parametric and non-parametric models clearly shows that the latter outperforms the former in this task. While Logistic Regression is effective in capturing some trends in the data, it is constrained by the assumption of linearity, which limits its ability to model complex interactions between features. On the other hand, non-parametric models like Gradient Boosting and Random Forest are more flexible and capable of capturing non-linear relationships, leading to better performance. Despite the strength of Gradient Boosting, the model could still benefit from regularization methods such as subsampling, shrinkage, and early stopping to reduce overfitting.
 
 ## Conclusion:
 
