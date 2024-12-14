@@ -88,7 +88,7 @@ The bar graph for month indicates that from May to September, the possibility of
 - **Evaluation Metric:** Misclassification Error Rate.
 
 
-## Models Implemented:
+## Models Implementation:
 ### 1. **Parametric Models:**
 Parametric models rely on assumptions about the data distribution and aim to estimate parameters that best explain the relationship between predictors and the target variable. For our rain prediction project, we implemented logistic regression as the primary parametric method. Additionally, we used forward selection and regularization techniques to improve model performance and interpretability.
 
