@@ -44,7 +44,7 @@ Parametric models rely on assumptions about the data distribution and aim to est
 ##### 1.1 **Logistic Regression:** 
 Logistic regression is a statistical model used for binary classification problems. It estimates the probability of a binary outcome using a logistic function, making it ideal for predicting categorical variables like "rain" or "no rain."
 
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 7](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%207.png)
 <img width="614" alt="截屏2024-12-14 上午12 15 26" src="https://github.com/user-attachments/assets/6867c4c8-0a43-4722-80af-e6281d695a47" />
 
 The misclassification error rate of 12.26% indicates that approximately 12 out of 100 predictions were incorrect. This is a good starting point, showing that the weather variables used are informative but could benefit from refinement.
@@ -52,8 +52,8 @@ The misclassification error rate of 12.26% indicates that approximately 12 out o
 ##### 1.2 **Forward Selection:** 
 Forward selection is a stepwise feature selection method that iteratively adds the most significant predictors to the model. It helps identify the best subset of features that contribute most to predicting the target variable.
 
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 8](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%208.png)
+![Figure 9](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%209.png)
 
 <img width="752" alt="截屏2024-12-14 上午12 16 40" src="https://github.com/user-attachments/assets/23c57e04-17c1-471f-b925-235f07f1856c" />
 
@@ -65,13 +65,13 @@ Forward selection selects the 7 most influential predictors based on their contr
 PCA is a dimensionality reduction technique that transforms the data into principal components, capturing the most variance in fewer dimensions. PLS, on the other hand, maximizes the covariance between predictors and the target variable, making it suitable for highly correlated features.
 
 **PCA:**
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 10](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2010.png)
 <img width="739" alt="截屏2024-12-14 上午12 19 33" src="https://github.com/user-attachments/assets/6f3c342f-5876-4a64-8373-9a687ddd4c18" />
 
 PCA transformed the predictors into 6 uncorrelated components while retaining as much variance as possible. The misclassification error rate remained at 11.95%, slightly worse than forward selection. PCA effectively addressed multicollinearity among predictors by transforming correlated variables into orthogonal components. However, due to the small number of predictors in our dataset, PCA was less impactful.
 
 **PLS:**
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 11](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2011.png)
 <img width="751" alt="截屏2024-12-14 上午12 22 18" src="https://github.com/user-attachments/assets/585df337-10dc-48a8-92df-6c0fb17ba1f8" />
 
 PLS selected 2 components by maximizing the covariance between predictors and the target variable. However, the misclassification error rate of 12.26% was identical to the full logistic regression model. Like PCA, PLS is more suitable for datasets with a higher number of predictors.
