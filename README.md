@@ -47,7 +47,7 @@ For **RainToday** and **RainTomorrow**, the figure shows that approximately 20% 
 
 From these figures, we observe that **Rainfall** has a highly skewed distribution with most days experiencing little to no rain, while variables like **MinTemp** and **MaxTemp** follow a more normal distribution.
 
-#### Correlation heatmap of the variables.
+#### Correlation heatmap of the variables
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%204.png" style="width: 100%; height: auto;">
 
@@ -70,8 +70,6 @@ These boxplots demonstrate patterns like higher **Rainfall** and lower **Sunshin
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%206.png" style="width: 100%; height: auto;">
 
 The bar graph for month indicates that from May to September, the possibility of rain is higher. The bar graph comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there is a much higher likelihood of rain tomorrow.
-
-
 
 </details>
 
