@@ -116,12 +116,21 @@ The optimal value for k was determined to be 15, which balances bias and varianc
 
 #### 2.2 **Classification Trees:**  
 partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
+![image](https://github.com/user-attachments/assets/45c3a0e4-4ea3-4664-b5f3-bf11849018c5)
+
+The tree achieves a misclassification error rate of 12.11%, effectively capturing the relationships between predictors and target classes.
+
 
 #### 2.3 **Random Forest:**  
 an ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
 
+This model achieves a misclassification error rate of 11.32%. Feature importance rankings highlight that "Sunshine" is the most influential variable, followed by "Pressure," "Humidity," and "WindGustSpeed." Other factors such as "MaxTemp," "MinTemp," and "Cloud" also contribute to the model's predictions, albeit to a lesser extent.
+
 #### 2.4 **Gradient Boosting:**  
 a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
+![image](https://github.com/user-attachments/assets/06585097-6b5b-4695-8980-dc5f89407306)
+
+The model achieves a misclassification error rate of 10.85%, making it one of the best-performing non-parametric models. The visualization highlights how decision trees are split based on various features, such as wind gust speed, sunshine, and humidity, to refine predictions and reduce overall error.
 
 </details>
 
