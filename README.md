@@ -12,7 +12,7 @@ To address this problem, we propose building and evaluating various classificati
 
 ## Data Exploration
 
-### Features Overview
+### Feature Overview
 
 | **Feature Name**       | **Description**                                      | **Type**    |
 |-------------------------|------------------------------------------------------|-------------|
