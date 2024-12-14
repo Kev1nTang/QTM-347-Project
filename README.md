@@ -45,7 +45,7 @@ For **RainToday** and **RainTomorrow**, the figure shows that approximately 20% 
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
 
-From these graphs, we observed that **Rainfall** has a highly skewed distribution with most days experiencing little to no rain, while variables like **MinTemp** and **MaxTemp** follow a more normal distribution.
+From these figures, we observe that **Rainfall** has a highly skewed distribution with most days experiencing little to no rain, while variables like **MinTemp** and **MaxTemp** follow a more normal distribution.
 
 #### Correlation Heatmap of the Variables.
 
@@ -63,13 +63,13 @@ However, these correlations are not protected from multicollinearity that exists
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%205.png" style="width: 100%; height: auto;">
 
-These box plots show patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**
+These boxplots demonstrate patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**
 
 #### Bar graph on categorical variables vs. target variable
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%206.png" style="width: 100%; height: auto;">
 
-The bar plot for month indicates from May to September, it will have a higher possibility of rain. The bar plot comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there’s a much higher likelihood of rain tomorrow
+The bar graph for month indicates that from May to September, the possibility of rain is higher. The bar graph comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there is a much higher likelihood of rain tomorrow.
 
 
 
