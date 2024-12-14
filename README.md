@@ -85,7 +85,7 @@ The bar graph for month indicates that from May to September, the possibility of
 
 ### Problem Setup:
 - **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
-- **Evaluation Metric:** Classification Error Rate.
+- **Evaluation Metric:** Misclassification Error Rate.
 
 
 ## Models Implemented:
