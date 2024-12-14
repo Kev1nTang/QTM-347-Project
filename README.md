@@ -35,13 +35,13 @@ To start with, we can explore our data with several visualizations:
 <details>
   <summary>Click to expand</summary>
 
-#### Piecharts on distribution of categorical features
+#### Pie charts on distribution of categorical features
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
 
-For **RainToday** and **RainTomorrow**, the data shows that approximately 20% of the observations indicate rain, while the majority, about 80%, do not. 
+For **RainToday** and **RainTomorrow**, the figure shows that approximately 20% of the observations indicate rain, while the majority, about 80%, do not. 
 
-#### Bargraphs on distribution of continuous features
+#### Bar graphs on distribution of continuous features
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
 
@@ -65,11 +65,11 @@ However, these correlations are not protected from multicollinearity that exists
 
 These box plots show patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**
 
-#### Bargraph on categorical variables vs. target variable
+#### Bar graph on categorical variables vs. target variable
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%206.png" style="width: 100%; height: auto;">
 
-The barplot for month indicates from May to September, it will have a higher possibility of rain. The bar plot comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there’s a much higher likelihood of rain tomorrow
+The bar plot for month indicates from May to September, it will have a higher possibility of rain. The bar plot comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there’s a much higher likelihood of rain tomorrow
 
 
 
