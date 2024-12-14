@@ -211,11 +211,9 @@ One key advantage of early stopping is its ability to dynamically adjust the num
 
 
 
-## Results: Describe the results from your experiments.
+## Results:
 
-Main results: Describe the main experimental results you have; this is where you highlight the most interesting findings.
-
-Supplementary results: Describe the parameter choices you have made while running the experiments. This part goes into justifying those choices.
+In our experiment, we compared both parametric models (such as Logistic Regression) and non-parametric models (including KNN, Random Forest, and Gradient Boosting). Among the parametric models, Logistic Regression achieved a misclassification error rate of 12.26%, while forward selection improved this to 11.64%. In contrast, the non-parametric models performed better overall, with Gradient Boosting emerging as the best-performing model with a misclassification error rate of 10.85%. The Random Forest model followed closely with an error rate of 11.32%, and KNN achieved 11.64%. These results suggest that non-parametric models are better suited to this problem, particularly for capturing the complex, non-linear relationships inherent in weather data.
 
 ## Discussion: 
 
