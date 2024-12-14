@@ -184,7 +184,7 @@ A powerful ensemble method that builds trees sequentially, optimizing for errors
 
 The model achieves a misclassification error rate of 10.85%, making it one of the best-performing non-parametric models. The visualization highlights how decision trees are split based on various features, such as wind gust speed, sunshine, and humidity, to refine predictions and reduce overall error.
 
-The following figure demonstrates a summary of the misclassification errors derived using different parametric models.
+The following figure demonstrates a summary of the misclassification errors derived using different nonparametric models.
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2021.png" style="width: 100%; height: auto;">
 
