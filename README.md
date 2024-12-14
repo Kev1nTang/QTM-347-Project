@@ -11,13 +11,8 @@ Weather prediction is a complex challenge due to the non-linear interactions bet
 
 To address this problem, we propose building and evaluating various classification models, including Logistic Regression, Decision Trees, and ensemble methods like Random Forests and Gradient Boosting. These approaches are well-suited to handling the multi-dimensional and non-linear nature of weather data, with ensemble methods particularly adept at improving prediction accuracy.
 
-Previous studies have shown that statistical models often lack the flexibility to capture complex interactions, while advanced machine learning techniques excel in these scenarios. Our approach emphasizes robust feature engineering, model optimization, and thorough evaluation using metrics such as precision, recall, and F1 score.
-
-While our solution has limitations, such as dependency on data quality and inherent weather variability, it offers a systematic method to improve rainfall prediction accuracy and contribute to practical and research advancements in weather forecasting.
-
 ## Setup: 
 
-Dataset used
 
 | **Variable Name**         | **Description**                                                                 | **Data Type** |
 |----------------------------|---------------------------------------------------------------------------------|---------------|
@@ -62,7 +57,7 @@ The dataset contains daily weather observations from Perth, Australia, with a to
    - Gradient Boosting (e.g., XGBoost)
 
 #### Computing Environment:
-- **Programming Language:** Python
+- **Programming Language:** Python 3.8+
 - **Platform:** Jupyter Notebook
 - **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
 
