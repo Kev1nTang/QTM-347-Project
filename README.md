@@ -53,13 +53,14 @@ The misclassification error rate of 12.26% indicates that approximately 12 out o
 Forward selection is a stepwise feature selection method that iteratively adds the most significant predictors to the model. It helps identify the best subset of features that contribute most to predicting the target variable.
 
 ![Figure 8](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%208.png)
-![Figure 9](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%209.png)
 
 <img width="752" alt="截屏2024-12-14 上午12 16 40" src="https://github.com/user-attachments/assets/23c57e04-17c1-471f-b925-235f07f1856c" />
 
 <img width="612" alt="截屏2024-12-14 上午12 18 41" src="https://github.com/user-attachments/assets/54e7e42b-7a9d-4a34-b7af-cd9236b5df54" />
 
-Forward selection selects the 7 most influential predictors based on their contribution to improving the model's log-likelihood. This refinement reduced the misclassification error rate to 11.64%, the best performance among parametric models. The chosen predictors provide the most information about rain likelihood. For instance, variables like humidity or pressure may dominate due to their direct physical connection to precipitation. A reduction of error rate from 12.26% to 11.64% indicates that including fewer but more relevant predictors improves model efficiency and accuracy.
+Forward selection selects the 7 most influential predictors based on their contribution to improving the model's log-likelihood. This refinement reduced the misclassification error rate to 11.64%, the best performance among parametric models. The chosen predictors provide the most information about rain likelihood. For instance, variables like humidity or pressure may dominate due to their direct physical connection to precipitation. A reduction of error rate from 12.26% to 11.64% indicates that including fewer but more relevant predictors improves model efficiency and accuracy. The model selected is demonstrated in the following figure.
+
+![Figure 9](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%209.png)
 
 ##### 1.3 **Principal Component Analysis (PCA) / Partial Least Squares (PLS):** 
 PCA is a dimensionality reduction technique that transforms the data into principal components, capturing the most variance in fewer dimensions. PLS, on the other hand, maximizes the covariance between predictors and the target variable, making it suitable for highly correlated features.
@@ -80,13 +81,13 @@ PLS selected 2 components by maximizing the covariance between predictors and th
 Ridge and Lasso are regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
 
 **Ridge:**
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 12](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2012.png)
 <img width="744" alt="截屏2024-12-14 上午12 24 13" src="https://github.com/user-attachments/assets/3bd68071-e29b-48e8-b8bf-d0ede4519372" />
 
 The misclassification error rate of 11.95% indicates that this approach effectively stabilized the model but did not outperform forward selection. Ridge regression provides better generalization by shrinking large coefficients and retaining all predictors. While it controls overfitting, the inclusion of less relevant predictors can dilute the model’s predictive power.
 
 **Lasso:**
-![Figure 2](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%201.png)
+![Figure 13](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2013.png)
 <img width="750" alt="截屏2024-12-14 上午12 26 05" src="https://github.com/user-attachments/assets/bd9f0c0b-3e8d-4a1c-bff9-09b1a58351ea" />
 
 Lasso regression model has a misclassification error rate of 12.42%, the highest among regularization techniques. Lasso’s feature selection is valuable for simplifying models in high-dimensional datasets. In this case, Lasso likely eliminated some predictors that contribute small but meaningful information, leading to a loss in predictive accuracy.
