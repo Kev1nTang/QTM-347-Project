@@ -39,7 +39,7 @@ To start with, we can explore our data with several visualizations:
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
 
-For **RainToday** and **RainTomorrow**, the figure shows that approximately 20% of the observations indicate rain, while the majority, about 80%, do not. 
+For **RainToday** and **RainTomorrow**, the figures demonstrate that approximately 20% of the observations indicate rain, while the majority, about 80%, do not. 
 
 #### Bar graphs on distribution of continuous features
 
