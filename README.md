@@ -62,9 +62,9 @@ PCA is a dimensionality reduction technique that transforms the data into princi
 ##### 1.4 **Ridge and Lasso Regression:** 
 regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
 
-<details>
+</details>
 
-2.  **Non-parametric Models:**
+##### 2.  **Non-parametric Models:**
 
 <details>
   <summary>Click to expand</summary>
