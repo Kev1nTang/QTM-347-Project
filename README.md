@@ -87,6 +87,10 @@ The misclassification error rate of 11.95% indicates that this approach effectiv
 
 Lasso regression model has a misclassification error rate of 12.42%, the highest among regularization techniques. Lasso’s feature selection is valuable for simplifying models in high-dimensional datasets. In this case, Lasso likely eliminated some predictors that contribute small but meaningful information, leading to a loss in predictive accuracy.
 
+The following figure demonstrates a summary of the misclassification errors derived using different parametric models.
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2014.png" style="width: 100%; height: auto;">
+Comment:(Delete)
+
 </details>
 
 ##### 2.  **Non-parametric Models:**
