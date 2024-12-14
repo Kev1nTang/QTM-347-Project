@@ -30,7 +30,7 @@ To address this problem, we propose building and evaluating various classificati
 | `RainTomorrow_Yes`     | Target variable: Will it rain tomorrow? (1 = Yes, 0 = No) | Binary      |
 
 ### Visualizations
-To start with, we explored our data with several visualizations:
+To start with, we can explore our data with several visualizations:
 
 <details>
   <summary>Click to expand</summary>
