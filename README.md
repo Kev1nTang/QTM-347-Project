@@ -47,7 +47,7 @@ For **RainToday** and **RainTomorrow**, the figure shows that approximately 20% 
 
 From these figures, we observe that **Rainfall** has a highly skewed distribution with most days experiencing little to no rain, while variables like **MinTemp** and **MaxTemp** follow a more normal distribution.
 
-#### Correlation Heatmap of the Variables.
+#### Correlation heatmap of the variables.
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%204.png" style="width: 100%; height: auto;">
 
