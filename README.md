@@ -192,7 +192,7 @@ From the figure above, gradient boosting yields the best outcome among the non-p
 
 ## **Regularization of Gradient Boosting:**
   
-The purpose of building a predictive model is to ensure that it generalizes well to new datasets. In this case, while Gradient Boosting can often capture complex patterns in the data, they can sometimes overfit the data, especially when applied to noisy datasets or small sample sizes. In this section, we will introduce different regularization methods to reduce the risk of overfitting.
+The purpose of building a predictive model is to ensure that it generalizes well to new datasets. In this case, while Gradient Boosting proved to be the most suitable for weather prediction in Perth, it can sometimes overfit the data, especially when applied to noisy datasets or small sample sizes. In this section, we will introduce different regularization methods to reduce the risk of overfitting.
 
 ### i) **Subsampling:**  
 Subsampling is an effective regularization technique in Gradient Boosting. The use of subsampling refers to randomly selecting a fraction of the training data in each iteration to train each base learner. By introducing randomness into the learning process, subsampling helps prevent the model from fitting too closely to the training data, which can lead to overfitting and poor performance. 
