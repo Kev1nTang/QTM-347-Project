@@ -148,6 +148,7 @@ From the figure above, forward selection yields the best outcome among the param
 </details>
 
 ### 2.  **Non-parametric Models:**
+Non-parametric models do not assume a specific data distribution and instead rely on the data itself to reveal patterns and relationships. For our rain prediction project, we implemented models such as K-Nearest Neighbors (KNN), Decision Trees, Random Forests, and Gradient Boosting.
 
 <details>
   <summary>Click to expand</summary>
