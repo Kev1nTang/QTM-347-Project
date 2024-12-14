@@ -35,12 +35,23 @@ To start with, we can explore our data with several visualizations:
 <details>
   <summary>Click to expand</summary>
 
+#### Piecharts on distribution of categorical features
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
+
+For **RainToday** and **RainTomorrow**, the data shows that approximately 20% of the observations indicate rain, while the majority, about 80%, do not. 
+
+#### Bargraphs on distribution of continuous features
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
+
+From these graphs, we observed that **Rainfall** has a highly skewed distribution with most days experiencing little to no rain, while variables like **MinTemp** and **MaxTemp** follow a more normal distribution.
+
 #### Correlation Heatmap of the Variables.
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%204.png" style="width: 100%; height: auto;">
 
 From the map, we can observe that:
-Here are three observations based on the provided correlation heatmap:
 
 1. There is a strong positive correlation between **Evaporation** and **MaxTemp** (0.80). This suggests that higher maximum temperatures may lead to increased evaporation.
 2. **RainToday_Yes** is positively correlated with **Rainfall** (0.64) and **Humidity** (0.49), which are strong indicators of the likelihood of rain on the same day or the next day.
@@ -48,17 +59,18 @@ Here are three observations based on the provided correlation heatmap:
 
 However, these correlations are not protected from multicollinearity that exists in these weather data.
 
-#### Boxplots on features vs. target variable
+#### Boxplots on continous variables vs. target variable
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%205.png" style="width: 100%; height: auto;">
 
-#### Pie charts on distribution of categorical features
+These box plots show patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**
 
-<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
+#### Bargraph on categorical variables vs. target variable
 
-#### Bar graphs on distribution of continuous features
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%206.png" style="width: 100%; height: auto;">
 
-<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
+The barplot for month indicates from May to September, it will have a higher possibility of rain. The bar plot comparing RainToday and RainTomorrow highlights a strong correlation: if it rains today, there’s a much higher likelihood of rain tomorrow
+
 
 
 </details>
