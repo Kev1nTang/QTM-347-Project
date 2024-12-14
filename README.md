@@ -122,9 +122,9 @@ The tree achieves a misclassification error rate of 12.11%, effectively capturin
 
 
 #### 2.3 **Random Forest:**  
-An ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many featur
+An ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
 <img width="233" alt="Screenshot 2024-12-14 at 15 31 45" src="https://github.com/user-attachments/assets/0760c70f-b72e-46e8-9bea-d1d37e358c6c" />
-es.
+
 
 This model achieves a misclassification error rate of 11.32%. Feature importance rankings highlight that "Sunshine" is the most influential variable, followed by "Pressure," "Humidity," and "WindGustSpeed." Other factors such as "MaxTemp," "MinTemp," and "Cloud" also contribute to the model's predictions, albeit to a lesser extent.
 
