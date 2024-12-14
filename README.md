@@ -156,14 +156,16 @@ Comment:
 
 #### 2.1 **K-Nearest Neighbors (KNN):**  
 An instance-based learning algorithm that classifies a data point based on the majority class of its k-nearest neighbors. It is simple and effective for datasets with distinct clusters but may struggle with high-dimensional data.
-![image](https://github.com/user-attachments/assets/5983105e-41eb-472b-ae86-93ae2b8f2e8d)
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2015.png" style="width: 100%; height: auto;">
 
 The optimal value for k was determined to be 15, which balances bias and variance to achieve the best model performance. At this optimal value, the misclassification error rate is 11.64%, indicating the proportion of incorrectly classified data points.
 
 
 #### 2.2 **Classification Trees:**  
 Partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
-![image](https://github.com/user-attachments/assets/45c3a0e4-4ea3-4664-b5f3-bf11849018c5)
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2017.png" style="width: 100%; height: auto;">
 
 The tree achieves a misclassification error rate of 12.11%, effectively capturing the relationships between predictors and target classes.
 
@@ -171,14 +173,14 @@ The tree achieves a misclassification error rate of 12.11%, effectively capturin
 #### 2.3 **Random Forest:**  
 An ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
 
-<img width="233" alt="Screenshot 2024-12-14 at 15 31 45" src="https://github.com/user-attachments/assets/0760c70f-b72e-46e8-9bea-d1d37e358c6c" />
-
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2018.png" style="width: 100%; height: auto;">
 
 This model achieves a misclassification error rate of 11.32%. Feature importance rankings highlight that "Sunshine" is the most influential variable, followed by "Pressure," "Humidity," and "WindGustSpeed." Other factors such as "MaxTemp," "MinTemp," and "Cloud" also contribute to the model's predictions, albeit to a lesser extent.
 
 #### 2.4 **Gradient Boosting:**  
 A powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
-![image](https://github.com/user-attachments/assets/06585097-6b5b-4695-8980-dc5f89407306)
+
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2020.png" style="width: 100%; height: auto;">
 
 The model achieves a misclassification error rate of 10.85%, making it one of the best-performing non-parametric models. The visualization highlights how decision trees are split based on various features, such as wind gust speed, sunshine, and humidity, to refine predictions and reduce overall error.
 
