@@ -63,7 +63,7 @@ However, these correlations are not protected from multicollinearity that exists
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%205.png" style="width: 100%; height: auto;">
 
-These boxplots demonstrate patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**
+These boxplots demonstrate patterns like higher **Rainfall** and lower **Sunshine** increasing the likelihood of **rain**.
 
 #### Bar graph on categorical variables vs. target variable
 
@@ -79,11 +79,11 @@ The bar graph for month indicates that from May to September, the possibility of
 ### Computing Environment:
 - **Programming Language:** Python 3.8+
 - **Platform:** Jupyter Notebook
-- **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
+- **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization
 
 ### Problem Setup:
-- **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
-- **Evaluation Metric:** Misclassification Error Rate.
+- **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise)
+- **Evaluation Metric:** Misclassification Error Rate
 
 
 ## Model Implementation:
