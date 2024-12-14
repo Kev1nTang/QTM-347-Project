@@ -109,6 +109,10 @@ Comment:
 
 #### 2.1 **K-Nearest Neighbors (KNN):**  
 an instance-based learning algorithm that classifies a data point based on the majority class of its k-nearest neighbors. It is simple and effective for datasets with distinct clusters but may struggle with high-dimensional data.
+![image](https://github.com/user-attachments/assets/5983105e-41eb-472b-ae86-93ae2b8f2e8d)
+
+The optimal value for k was determined to be 15, which balances bias and variance to achieve the best model performance. At this optimal value, the misclassification error rate is 11.64%, indicating the proportion of incorrectly classified data points.
+
 
 #### 2.2 **Classification Trees:**  
 partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
