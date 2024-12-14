@@ -91,7 +91,7 @@ The following figure demonstrates a summary of the misclassification errors deri
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2014.png" style="width: 100%; height: auto;">
 
-Comment:(Delete)
+Comment:
 
 </details>
 
