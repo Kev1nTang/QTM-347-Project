@@ -52,11 +52,11 @@ However, these correlations are not protected from multicollinearity that exists
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%205.png" style="width: 100%; height: auto;">
 
-#### Piecharts on distribution of categorical features
+#### Pie charts on distribution of categorical features
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%203.png" style="width: 100%; height: auto;">
 
-#### Bargraphs on distribution of continuous features
+#### Bar graphs on distribution of continuous features
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%202.png" style="width: 100%; height: auto;">
 
