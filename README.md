@@ -46,6 +46,8 @@ Logistic regression is a statistical model used for binary classification proble
 
 ![Figure 7](https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%207.png)
 
+<img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%207.png" style="width: 100%; height: auto;">
+
 The misclassification error rate of 12.26% indicates that approximately 12 out of 100 predictions were incorrect. This is a good starting point, showing that the weather variables used are informative but could benefit from refinement.
 
 ##### 1.2 **Forward Selection:** 
