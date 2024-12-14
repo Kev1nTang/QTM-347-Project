@@ -45,16 +45,43 @@ The dataset contains daily weather observations from Perth, Australia, with a to
 ### Experimental Setup
 
 #### Models to be Used:
-1. **Parametric Models:**
-   - **Logistic Regression:** a statistical model used for binary classification problems. It estimates the probability of a binary outcome using a logistic function, making it ideal for predicting categorical variables like "rain" or "no rain."
-   - **Forward Selection:** a stepwise feature selection method that iteratively adds the most significant predictors to the model. It helps identify the best subset of features that contribute most to predicting the target variable
-   - **Principal Component Analysis (PCA) / Partial Least Squares (PLS):** PCA is a dimensionality reduction technique that transforms the data into principal components, capturing the most variance in fewer dimensions. PLS, on the other hand, maximizes the covariance between predictors and the target variable, making it suitable for highly correlated features.
-   - **Ridge and Lasso Regression:** regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
-2. **Non-parametric Models:**
-   - **K-Nearest Neighbors (KNN):** an instance-based learning algorithm that classifies a data point based on the majority class of its k-nearest neighbors. It is simple and effective for datasets with distinct clusters but may struggle with high-dimensional data.
-   - **Classification Trees:** partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
-   - **Random Forest:** an ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
-   - **Gradient Boosting:** a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
+##### 1. **Parametric Models:**
+
+<details>
+  <summary>Click to expand</summary>
+
+##### 1.1 **Logistic Regression:** 
+a statistical model used for binary classification problems. It estimates the probability of a binary outcome using a logistic function, making it ideal for predicting categorical variables like "rain" or "no rain."
+
+##### 1.2 **Forward Selection:** 
+a stepwise feature selection method that iteratively adds the most significant predictors to the model. It helps identify the best subset of features that contribute most to predicting the target variable
+
+##### 1.3 **Principal Component Analysis (PCA) / Partial Least Squares (PLS):** 
+PCA is a dimensionality reduction technique that transforms the data into principal components, capturing the most variance in fewer dimensions. PLS, on the other hand, maximizes the covariance between predictors and the target variable, making it suitable for highly correlated features.
+
+##### 1.4 **Ridge and Lasso Regression:** 
+regularization techniques that add penalties to the regression model to reduce overfitting. Ridge minimizes the sum of squared coefficients, while Lasso encourages sparsity by shrinking coefficients of less important features to zero.
+
+<details>
+
+2.  **Non-parametric Models:**
+
+<details>
+  <summary>Click to expand</summary>
+
+##### 2.1 **K-Nearest Neighbors (KNN):**  
+an instance-based learning algorithm that classifies a data point based on the majority class of its k-nearest neighbors. It is simple and effective for datasets with distinct clusters but may struggle with high-dimensional data.
+
+##### 2.2 **Classification Trees:**  
+partition data into subsets based on feature values, forming a tree-like structure. They are easy to interpret and effective for capturing non-linear relationships in the data.
+
+##### 2.3 **Random Forest:**  
+an ensemble learning method that builds multiple decision trees and combines their predictions for improved accuracy. It reduces overfitting and works well with complex datasets with many features.
+
+##### 2.4 **Gradient Boosting:**  
+a powerful ensemble method that builds trees sequentially, optimizing for errors made by previous trees. XGBoost, an implementation of Gradient Boosting, is known for its speed and high predictive performance, especially in structured data problems.
+
+</details>
 
 #### Computing Environment:
 - **Programming Language:** Python 3.8+
