@@ -8,7 +8,7 @@
 ## Introduction
 
 Weather prediction is a complex challenge due to the non-linear interactions between atmospheric conditions. This project focuses on developing a classification model to predict whether it will rain in Perth, Australia, tomorrow using today’s weather data. Accurate rainfall predictions have significant implications in agriculture, transportation, and emergency preparedness, making this problem both practical and meaningful. Beyond immediate applications, rainfall prediction provides insights into seasonal trends and supports the understanding of climate change.
-<img width="752" alt="Figure 1" src="https://github.com/user-attachments/assets/23c57e04-17c1-471f-b925-235f07f1856c" />
+<img width="752" alt="Figure 1" src="" />
 To address this problem, we propose building and evaluating various classification models, including Logistic Regression, Decision Trees, and ensemble methods like Random Forests and Gradient Boosting. These approaches are well-suited to handling the multi-dimensional and non-linear nature of weather data, with ensemble methods particularly adept at improving prediction accuracy.
 
 ## Setup: 
