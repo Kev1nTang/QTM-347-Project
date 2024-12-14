@@ -122,6 +122,36 @@ a powerful ensemble method that builds trees sequentially, optimizing for errors
 
 </details>
 
+### 3.  **Regularization of Gradient Boosting:**
+
+<details>
+  <summary>Click to expand</summary>
+  
+The purpose of building a predictive model is to ensure that it generalizes well to new datasets. In this case, while gradient boosting can often capture complex patterns in the data, they can sometimes overfit the data, especially when applied to noisy datasets or small sample sizes. In this section, we will introduce different regularization methods to reduce the risk of overfitting.
+
+#### 3.1 **Subsampling:**  
+Subsampling is an effective regularization technique in gradient boosting. The use of subsampling refers to randomly selecting a fraction of the training data in each iteration to train each base learner. By introducing randomness into the learning process, subsampling helps prevent the model from fitting too closely to the training data, which can lead to overfitting and poor performance. 
+
+One key advantage of subsampling is that it naturally reduces computational complexity. By training smaller subsamples of the data in each iteration, the implementation of gradient boosting requires less time and memory storage and is, therefore, well-suited for large datasets. However, the fraction of data selected at each iteration needs to be determined manually. While a smaller subsample results in greater randomness and better model generalization, it comes at the potential cost of increasing bias, which means that the model may underfit the data if too small a fraction of the data is selected in each iteration. In this case, the model may fail to capture important patterns in the data, leading to decreased accuracy.
+
+#### 3.2 **Shrinkage:**  
+Shrinkage, also can be referred to as the learning rate, is another important regularization technique in gradient boosting. It works by shrinking the contribution of each weak learner in the overall model. In the context of regularization, one can reduce the learning rate. By slowing down the learning process, shrinkage ensures that the model improves gradually, reducing the risk of overfitting.
+
+One of the key advantages of shrinkage is that it strikes a balance between model generalization and model complexity. When the value of the learning rate decreases, the algorithm will use a larger number of iterations to minimize the loss function, allowing the model to be built by small incremental improvements. These gradual improvements help the model to focus more on meaningful patterns in the data rather than noise, which reduces the risk of overfitting. However, shrinkage also introduces computational trade-offs. A smaller value of $\lambda$ requires a larger number of iterations to reach convergence, which will take more time and memory storage in the learning process.
+
+#### 3.3 **Early Stopping:**  
+In the previous section, a disadvantage of shrinkage mentioned is that it significantly raises the computational cost due to the increased number of iterations. One regularization technique in gradient boosting that can help mitigate this issue is early stopping. Early stopping works by monitoring the performance of the model during the learning process and stopping the iterations once the model stops improving. By terminating the learning process early, early stopping prevents the model from becoming too complex and fitting noises in the training data, which can lead to overfitting.
+
+\hspace{2em} One key advantage of early stopping is its ability to dynamically adjust the number of iterations, eliminating the need to manually predetermine the number of iterations. In addition, the early stopping approach complements other regularization methods, such as shrinkage and subsampling, as it ensures that the model does not continue to improve itself with negligible improvement, ultimately leading to overfitting.
+
+</details>
+
+
+
+
+
+
+
 ## Results: Describe the results from your experiments.
 
 Main results: Describe the main experimental results you have; this is where you highlight the most interesting findings.
