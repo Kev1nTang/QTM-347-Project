@@ -39,11 +39,36 @@ Dataset used
 | `loan_rate`               | Interest rate of the loan (Our research target)                                 | Numeric       |
 
 
-Describe the dataset, including its basic statistics.
+### Dataset Description
 
-Describe the experimental setup, including what models you are going to run, what parameters you plan to use, and what computing environment you will execute on.
+The dataset contains daily weather observations from Perth, Australia, with a total of **145,460 entries** and **23 variables**. Below are the key features:
 
-Describe the problem setup (e.g., for neural networks, describe the network structure that you are going to use in the experiments).
+- **Total Entries:** 145,460  
+- **Target Variable:** `RainTomorrow` (binary classification: `Yes` for rain and `No` for no rain)
+- **Predictor Variables:** Include temperature, humidity, pressure, cloud coverage, wind data, and rainfall metrics.
+
+### Experimental Setup
+
+#### Models to be Used:
+1. **Parametric Models:**
+   - Logistic Regression
+   - Forward Selection
+   - Principal Component Analysis (PCA) / Partial Least Squares (PLS)
+   - Ridge and Lasso Regression (to address overfitting)
+2. **Non-parametric Models:**
+   - K-Nearest Neighbors (KNN)
+   - Classification Trees
+   - Random Forest
+   - Gradient Boosting (e.g., XGBoost)
+
+#### Computing Environment:
+- **Programming Language:** Python
+- **Platform:** Jupyter Notebook
+- **Libraries:** NumPy, pandas, scikit-learn, XGBoost, and Matplotlib/Seaborn for visualization.
+
+#### Problem Setup:
+- **Objective:** Binary classification to predict whether it will rain tomorrow (`RainTomorrow` = `1` for rain, `0` otherwise).
+- **Evaluation Metric:** Classification Error Rate.
 
 ## Results: Describe the results from your experiments.
 
