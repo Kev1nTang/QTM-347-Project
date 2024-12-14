@@ -143,7 +143,7 @@ The following figure demonstrates a summary of the misclassification errors deri
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2014.png" style="width: 100%; height: auto;">
 
-Comment:
+From the figure above, forward selection yields the best outcome among the parametric models, this is due to its ability to iteratively select the most significant predictors. By adding features one at a time based on their contribution to improving the model's performance, forward selection minimizes overfitting while retaining the most relevant variables.
 
 </details>
 
@@ -186,7 +186,7 @@ The following figure demonstrates a summary of the misclassification errors deri
 
 <img src="https://raw.githubusercontent.com/Kev1nTang/QTM-347-Project/main/Figure/Figure%2021.png" style="width: 100%; height: auto;">
 
-Comment:
+From the figure above, gradient boosting yields the best outcome among the non-parametric models, this is due to its ability to sequentially build decision trees that correct the errors made by previous trees, allowing it to capture complex, non-linear relationships in the data. 
 
 </details>
 
