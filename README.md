@@ -13,34 +13,22 @@ To address this problem, we propose building and evaluating various classificati
 
 ## Setup: 
 
+### Features Overview
 
-| **Variable Name**         | **Description**                                                                 | **Data Type** |
-|----------------------------|---------------------------------------------------------------------------------|---------------|
-| `loan_amnt`               | The total amount of the loan                                                    | Numeric       |
-| `loan_term`               | The term of the loan (in months)                                                | Numeric       |
-| `emp_length`              | Employment length (in years)                                                    | Categorical   |
-| `home_ownership`          | The home ownership status                                                       | Categorical   |
-| `income_source_verified`  | Indicator if the income source was verified                                     | Binary        |
-| `income_verified`         | Indicator if the income was verified                                            | Binary        |
-| `income_thou`             | Income in thousands                                                             | Numeric       |
-| `debt_income`             | Debt-to-income ratio                                                            | Numeric       |
-| `delinq_2yrs`             | The number of 30+ days past-due incidences of delinquency in the past 2 years    | Numeric       |
-| `credit_history_length`   | Length of the borrower's credit history                                         | Numeric       |
-| `FICO`                    | FICO credit score                                                              | Numeric       |
-| `open_acc`                | Number of open credit lines                                                     | Numeric       |
-| `derogatory_recs`         | Number of derogatory records                                                    | Numeric       |
-| `revol_balance`           | Total credit revolving balance                                                  | Numeric       |
-| `revol_util`              | The amount of credit the borrower is using relative to all available revolving credit | Numeric |
-| `loan_rate`               | Interest rate of the loan (Our research target)                                 | Numeric       |
-
-
-### Dataset Description
-
-The dataset contains daily weather observations from Perth, Australia, with a total of **145,460 entries** and **23 variables**. Below are the key features:
-
-- **Total Entries:** 145,460  
-- **Target Variable:** `RainTomorrow` (binary classification: `Yes` for rain and `No` for no rain)
-- **Predictor Variables:** Include temperature, humidity, pressure, cloud coverage, wind data, and rainfall metrics.
+| **Feature Name**       | **Description**                                      | **Type**    |
+|-------------------------|------------------------------------------------------|-------------|
+| `MinTemp`              | Minimum temperature of the day (°C)                  | Numeric     |
+| `MaxTemp`              | Maximum temperature of the day (°C)                  | Numeric     |
+| `Rainfall`             | Total rainfall for the day (mm)                      | Numeric     |
+| `Evaporation`          | Evaporation for the day (mm)                         | Numeric     |
+| `Sunshine`             | Total hours of sunshine                              | Numeric     |
+| `WindGustSpeed`        | Maximum wind gust speed (km/h)                       | Numeric     |
+| `Month`                | Month of the observation (1-12)                      | Categorical |
+| `Humidity`             | Average humidity (%)                                 | Numeric     |
+| `Pressure`             | Average atmospheric pressure (hPa)                   | Numeric     |
+| `Cloud`                | Average cloud coverage (0-8 scale)                   | Numeric     |
+| `RainToday_Yes`        | Indicator if it rained today (1 = Yes, 0 = No)       | Binary      |
+| `RainTomorrow_Yes`     | Target variable: Will it rain tomorrow? (1 = Yes, 0 = No) | Binary      |
 
 ### Experimental Setup
 
